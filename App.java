@@ -186,16 +186,6 @@ public class App {
     System.out.print("=> ");
     int getInputMenu = sc.nextInt();
 
-    // account[0][0] = "123";
-    // account[0][1] = "123";
-    // account[1][0] = "321";
-    // account[1][1] = "321";
-    // account[2][0] = "234";
-    // account[2][1] = "234";
-    // dataPatient[0][0] = "DANI";
-    // dataPatient[1][0] = "HAMDANI";
-    // dataPatient[2][0] = "AHMAD";
-
     switch (getInputMenu) {
       case 1:
         int getMenuLogin = menuLogin();
